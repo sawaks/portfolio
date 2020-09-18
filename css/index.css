@@ -72,6 +72,10 @@ header .hambarger-menu {
   color: white;
 }
 
+header .hambarger-menu i {
+  font-size: 30px;
+}
+
 main {
   width: 100%;
 }
@@ -115,7 +119,7 @@ main {
   padding-bottom: 0.2em;
   border-bottom: #2e6873 5px solid;
   margin: 0 auto;
-  width: 400px;
+  width: 40%;
 }
 
 .about .about-w {
@@ -175,7 +179,7 @@ main {
   padding-bottom: 0.2em;
   border-bottom: #2e6873 5px solid;
   margin: 0 auto;
-  width: 300px;
+  width: 40%;
   padding-top: 2em;
 }
 
@@ -244,7 +248,7 @@ main {
   padding-bottom: 0.2em;
   border-bottom: #2e6873 5px solid;
   margin: 0 auto;
-  width: 300px;
+  width: 40%;
   padding-top: 2em;
 }
 
@@ -260,6 +264,32 @@ main {
 
 .works .works-in-w .works-in-in {
   width: calc(100% / 3);
+  text-align: center;
+}
+
+.works .works-in-w .works-in-in .bt-w {
+  margin-top: -24px;
+}
+
+.works .works-in-w .works-in-in .bt-w button {
+  padding-top: 3px;
+  border: #2e6873 2px solid;
+  border-radius: 5%;
+  background: rgba(181, 221, 184, 0.5);
+}
+
+.works .works-in-w .works-in-in .bt-w button a {
+  text-decoration: none;
+  color: #66737a;
+  font-size: 15px;
+}
+
+.works .works-in-w .works-in-in .bt-w button a i {
+  font-size: 10px;
+}
+
+.works .works-in-w .works-in-in .bt-w button:hover {
+  opacity: 0.6;
 }
 
 .works .works-in-w .works-in-in .works-in {
@@ -326,7 +356,7 @@ main {
   padding-bottom: 0.2em;
   border-bottom: #2e6873 5px solid;
   margin: 0 auto;
-  width: 300px;
+  width: 40%;
   padding-top: 2em;
 }
 
@@ -372,8 +402,8 @@ footer {
 
 footer #page_top {
   position: fixed;
-  bottom: 1.5em;
-  right: 20px;
+  bottom: 2em;
+  right: 30px;
 }
 
 footer #page_top a {
@@ -381,6 +411,7 @@ footer #page_top a {
   color: #66737a;
   text-align: center;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 footer #page_top a :hover {
@@ -507,6 +538,30 @@ footer .copyright p {
   }
   .skills .skills-w .skills-w-w .skill-in .skill-in-in {
     width: 60%;
+  }
+  .about .about-w {
+    display: block;
+  }
+  .about .about-w .img-w {
+    width: 100%;
+  }
+  .about .about-w .img-w img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .about .about-w .text-w {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .about .about-w .text-w p {
+    text-align: start;
+  }
+  .works .works-in-w {
+    display: block;
+  }
+  .works .works-in-w .works-in-in {
+    width: 100%;
   }
 }
 
